@@ -10,7 +10,7 @@ $ python
 ```
 ```python
 >> import sqlite3
->> conn = sqlite3.connect('db.sql') // You can call the database whatever you want, just make sure you insert it in the main.py file later.
+>> conn = sqlite3.connect('db.sql') # You can call the database whatever you want, just make sure you insert it in the main.py file later.
 >> c = conn.cursor()
 >> c.execute('''CREATE TABLE pyNotes (title text,note text)''')
 >> conn.commit()
