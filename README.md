@@ -4,7 +4,7 @@ pyKeep is a simple to use note taking program that uses Python and SQL.
 ## Set UP
 ### Step One
 Create a .sql file, and inside that create a table called "pyNotes". The table is going to contain two text values. They are going to be called "title" and "note".
-If you need the code to create the database file, here it is:
+There is already a database file included with the correct formatting. Just make sure at the end, you edit the Py file to change the database URL to the file route of the database file (e.g If your sql and py file are in the same directory and you are using the included database with the name 'db.sql', replace '[Database_URL]' with 'db.sql'. If you need the code to create the database file, here it is:
 ```bash
 $ python
 ```
