@@ -70,7 +70,7 @@ def manage():
         print(Fore.WHITE + "-----------------------------------")
         print(
             Fore.RED +
-            "You currently have no notes stored in pyKeep. To create a note, click 1. "
+            "You currently have no notes stored in pyKeep. To create a note, click y. "
         )
         print(Fore.WHITE + "-----------------------------------")
         nn = str.lower(input("Do you want to create a new note (Y/N) "))
